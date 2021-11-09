@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="sv">
+	<head>
+		<meta charset="UTF-8">
+		<title>Formulär</title>
+	</head>
+	<body>
+		<form method="GET">
+				<label for="Datum"> Datum: </label>
+				<input type="date" id="datum" name="Datum">
+				<label for="appt"> Tid: </label>
+				<input type="time" id="appt" name="appt">
+				
+			<p>Hur många personer vill du boka?</p>
+			<select name="Personer" size="1">
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+					<option>6</option>
+					<option>7 </option>
+				</select>
+				<p>Om ni är flera än 7 så fyll gärna i antalet här</p>
+				<input type="Text">
+				<p>Hur många bord vill du boka?</p>
+				<select name="Bord" size="1" value="Bord">
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4 </option>
+				</select>
+				
+				<p>Om du vill boka flera bord än 4 så fyll gärna i antalet här</p>
+				<input type="Text">
+				<p>Har du några allergier?</p>
+				<textarea name="Specialdieter" rows="5" cols="15"> </textarea>
+					<p>Har du några specialdieter eller något liknande?</p>
+					<br><input type="Checkbox" name="Gluten" value="JA">Gluten
+					<br><input type="Checkbox" name="Laktos" value="JA">Laktos
+					<br><input type="Checkbox" name="Vegetariansk" value="JA">Vegetariansk
+					<br><input type="Checkbox" name="Vegansk" value="JA">Vegansk
+					<p>Har du någon/några andra specialdieter?</p>
+				<textarea name="Specialdietertext" rows="5" cols="15"> </textarea>
+				<br><br>
+				<p>Menyn</p>
+				<select name="Matmeny" value="Matmeny">
+					<p>Meny<p>
+					<option>Rabarberpaj</option>
+					<option>Fisk med sås</option>
+					<option>Köttbullar med mos</option> 
+					<option>jägarsmörgås</option>
+					<option>kaprissoppa</option>
+					<option>Toastskagen</option>
+					<option>Högrevsburgare</option>
+					<option>Rödbetssoppa</option>
+					<option>helstekt Undulat</option>
+					<option>Fallafel med bröd</option>
+				</select>
+				<br><br>
+			<input type="Submit" name="Skicka" value="Skicka"><br><br>
+			<input type="reset" name="Skicka ej" value="Gör om och gör rätt">
+		</form>
+	</body>
+</html>
